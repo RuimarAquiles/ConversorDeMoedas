@@ -1,0 +1,127 @@
+body {
+	background-image:url("https://exchangenow.net/upload/como_funciona_a_bolsa_de_valores.jpg") ;
+	background-position:center center; /*Usa-se center center para alinhar nos dois eixos X e Y, caso queira alinhar a direita ou esquerda, usar right ou left*/
+    background-repeat: no-repeat; /*faz a imagem não se repetir*/
+    background-attachment:fixed; /*faz a imagem ficar parada/fixa no fundo da tela quando ocorre barra de rolagem*/
+    background-size: cover; /*aumenta a imagem para ocupar a tela toda*/
+	font-family: aladin;
+  	margin: 0px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: aladin;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select{
+	border-radius: 25px;
+	width: 130px;
+    height: 30px;
+	font-size: 15px;
+	background-color:rgb(255, 251, 251);
+	border:none;
+	color:rgb(0, 0, 0);
+	margin:3px;	
+}
+
+button {
+	width: 150px;
+    height: 30px;
+	font-size: 15px;
+	background-color:rgb(255, 251, 251);
+	border:none;
+	color:rgb(0, 0, 0);
+	margin:3px;
+	border-radius: 25px;
+}
+
+button:hover {
+  background-color:rgb(91, 190, 247);
+  color: white;
+}
+
+.degrade{
+	
+	height:92vh;
+	color: white;
+	text-align:center;
+}	
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.outer-container {
+	opacity: 90%;
+	width:100%;
+	margin: 0 auto;
+	text-align:center;
+    background: rgb(5, 27, 219); /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.conversorMoedas{
+	position:absolute;
+	background-color: rgb(5, 27, 219);
+	opacity: 90%;
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:15px;
+}
+
+.result-container{
+	margin-top: 10px;
+	/*background-color: #f2f2f2;*/
+	padding: 0px;
+	border-radius: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align:center !important;
+}
+
+footer {
+    background: rgb(5, 27, 219);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: rgb(91, 190, 247); /* Ou a cor desejada para o hover */
+}
+a:visited, a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+a:hover{
+color:gray;
+}
+label{
+	text-align: justify;
+	padding-left: 25px;
+}
